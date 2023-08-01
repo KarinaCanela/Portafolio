@@ -30,12 +30,18 @@
     padding: 15px 5px;
     white-space: nowrap;
   }
+
   .logo a,
   .toggle a {
     font-size: 20px;
   }
-  .button.secondary {
-    border-bottom: 1px #444 solid;
+
+  li img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    position: relative;
+    top: 7px;
   }
   /* Mobile menu */
   .menu {
@@ -84,22 +90,8 @@
     }
     .button a {
       padding: 7.5px 15px;
-      background: teal;
-      border: 1px #006d6d solid;
     }
-    .button.secondary a {
-      background: transparent;
-    }
-    .button a:hover {
-      text-decoration: none;
-    }
-    .button:not(.secondary) a:hover {
-      background: #006d6d;
-      border-color: #005959;
-    }
-    .button.secondary a:hover {
-      color: #ddd;
-    }
+  
   }
   /* Desktop menu */
   @media all and (min-width: 900px) {
