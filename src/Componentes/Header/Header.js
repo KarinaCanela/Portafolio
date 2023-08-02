@@ -3,7 +3,7 @@ import './Header.css'
 function Header () {
     return <nav>
     <ul className="menu">
-      <li className="logo"><a href="#"><i class="fas fa-laptop-code fa-lg"></i>Karla Karina Canela Cobos</a></li>
+      <li className="logo"><a href="#">Karla Karina Canela Cobos</a></li>
       <li className="item"><a href="#">Sobre mi</a></li>
       <li className="item"><a href="#">Skills</a></li>
       <li className="item"><a href="#">Hobbies</a></li>

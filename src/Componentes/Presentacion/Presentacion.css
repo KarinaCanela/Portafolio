@@ -1,0 +1,44 @@
+.presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+.presentacion__profile {
+    width: 368px;
+    height: 368px;
+    border-radius: 40rem;
+    margin-right: 2rem;
+}
+
+.presentacion__container {
+    color: antiquewhite;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.presentacion__bio {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.presentacion__subsection {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+@media all and (min-width: 360px) {
+    .presentacion__profile {
+        display: none;
+    }
+
+    .presentacion__container {
+        margin-left: .5rem;
+    }
+
+    .presentacion__bio, 
+    .presentacion__subsection {
+        font-size: 1.5rem;
+    }
+    
+}
