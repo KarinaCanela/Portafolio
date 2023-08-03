@@ -1,0 +1,30 @@
+.about__container {
+    display: flex;
+    padding: 1rem;
+    color: antiquewhite;
+    margin-left: 2rem;
+    flex-direction: column;
+}
+
+.about__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about__paragraph {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: justify;
+}
+
+@media (max-width: 576px) {
+    .about__container {
+        margin-left: .5rem;
+    }
+
+    .about__title, 
+    .about__paragraph {
+        font-size: 1.5rem;
+    }
+    
+}

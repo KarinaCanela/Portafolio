@@ -4,7 +4,7 @@ function Header () {
     return <nav>
     <ul className="menu">
       <li className="logo"><a href="#">Karla Karina Canela Cobos</a></li>
-      <li className="item"><a href="#">Sobre mi</a></li>
+      <li className="item"><a href="#sobre_mi">Sobre mi</a></li>
       <li className="item"><a href="#">Skills</a></li>
       <li className="item"><a href="#">Hobbies</a></li>
       <li className="item"><a href="#">Formación</a></li>
