@@ -1,4 +1,5 @@
 import './Header.css'
+import '../SobreMi/SobreMi.js'
 
 function Header () {
     return <nav>
