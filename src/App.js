@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Componentes/Header/Header.js'
 import Presentacion from './Componentes/Presentacion/Presentacion.js';
-import SobreMi from './Componentes/SobreMi/SobreMi';
-import Skills from './Componentes/Skills/Skills';
+import SobreMi from './Componentes/SobreMi/SobreMi.js';
+import Skills from './Componentes/Skills/Skills.js';
+import Hobbies from './Componentes/Hobbies/Hobbies';
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <SobreMi/>,
       <div className='divSkills'>
         <Skills/>
+      </div>
+      <div className='divHobbies'>
+        <Hobbies/>
       </div>
       
 

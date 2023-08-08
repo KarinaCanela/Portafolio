@@ -7,7 +7,7 @@ function Skills () {
         <div class="skills__box">
             <ul>
                 <li class="skills__img"><img src="img/htlm.png"/></li>
-                <li class="skills__name"> HTML 5</li>
+                <li class="skills__name">HTML 5</li>
             </ul>
         </div>
 
@@ -28,7 +28,7 @@ function Skills () {
         <div class="skills__box">
             <ul>
                 <li class="skills__img"><img src="img/nodejs_icon.png" alt=""/></li>
-                <li class="skills__name">NodeJS</li>
+                <li class="skills__name">Node JS</li>
             </ul>
         </div>
 
