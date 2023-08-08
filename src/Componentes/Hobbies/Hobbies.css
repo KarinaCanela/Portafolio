@@ -3,13 +3,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 94%;
+    margin-left: 1rem;
 }
 
 .hobbies__title {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 2.5rem;
-    text-align: center;
+    text-align: start;
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -19,7 +20,7 @@
     justify-content: space-between;
     gap: 4rem;
     flex-wrap: wrap;
-
+    margin-bottom: 4rem;
 }
 
 .hobbies__box {

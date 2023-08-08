@@ -6,8 +6,8 @@ function Header () {
     <ul className="menu">
       <li className="logo"><a href="#">Karla Karina Canela Cobos</a></li>
       <li className="item"><a href="#sobre_mi">Sobre mi</a></li>
-      <li className="item"><a href="#">Skills</a></li>
-      <li className="item"><a href="#">Hobbies</a></li>
+      <li className="item"><a href="#skills">Skills</a></li>
+      <li className="item"><a href="#hobbies">Hobbies</a></li>
       <li className="item"><a href="#">Formación</a></li>
       <li className="item"><a href="#">Proyectos</a></li>
       <li className="item"><a href="#">Contacto</a></li>
