@@ -8,7 +8,7 @@ function Header () {
       <li className="item"><a href="#sobre_mi">Sobre mi</a></li>
       <li className="item"><a href="#skills">Skills</a></li>
       <li className="item"><a href="#hobbies">Hobbies</a></li>
-      <li className="item"><a href="#">Formación</a></li>
+      <li className="item"><a href="#formacion">Formación</a></li>
       <li className="item"><a href="#">Proyectos</a></li>
       <li className="item"><a href="#">Contacto</a></li>
       <li className="item button"><a href="https://github.com/KarinaCanela"><i className="fab fa-github fa-lg" title='GitHub'></i></a></li>

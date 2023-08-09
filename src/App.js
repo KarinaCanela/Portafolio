@@ -4,7 +4,9 @@ import Header from './Componentes/Header/Header.js'
 import Presentacion from './Componentes/Presentacion/Presentacion.js';
 import SobreMi from './Componentes/SobreMi/SobreMi.js';
 import Skills from './Componentes/Skills/Skills.js';
-import Hobbies from './Componentes/Hobbies/Hobbies';
+import Hobbies from './Componentes/Hobbies/Hobbies.js';
+import FormacionA from './Componentes/FormacionA/FormacionA.js';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <div className='divHobbies'>
         <Hobbies/>
       </div>
+      <FormacionA/>
       
 
     </div>
