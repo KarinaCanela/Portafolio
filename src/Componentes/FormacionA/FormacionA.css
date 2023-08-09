@@ -59,7 +59,7 @@
     font-size: 1.5rem;
 }
 
-@media (max-width:480px) { 
+@media (min-width: 320px) { 
     .academic__courses {
         flex-wrap: wrap;
     }
@@ -69,6 +69,23 @@
     }
 
     .imgtescha {
+        width: 220px;
+        height: 80px;
+    }
+
+    .imgalura {
+        width: 220px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imgtescha {
+        width: 300px;
+        height: 160px;
+    }
+
+    .imgalura {
         width: 260px;
         height: 120px;
     }
