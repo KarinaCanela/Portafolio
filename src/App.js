@@ -6,6 +6,7 @@ import SobreMi from './Componentes/SobreMi/SobreMi.js';
 import Skills from './Componentes/Skills/Skills.js';
 import Hobbies from './Componentes/Hobbies/Hobbies.js';
 import FormacionA from './Componentes/FormacionA/FormacionA.js';
+import ExperienciaP from './Componentes/ExperienciaP/ExperienciaP.js';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Hobbies/>
       </div>
       <FormacionA/>
+      <ExperienciaP/>
       
 
     </div>
