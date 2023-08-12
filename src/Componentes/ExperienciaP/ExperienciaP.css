@@ -1,16 +1,14 @@
-.experience__section__title {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.8em;
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: bold;
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .experience {
     margin: 0;
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
@@ -22,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65rem;
+    width: 80rem;
     height: 30rem;
     margin: 1rem;
     border-radius: 1rem;
@@ -41,29 +39,32 @@
 
 .experience__img {
     padding: .5rem;
+    margin-right: 2rem;
     width: 45rem;
     border-radius: 1rem;
 }
 
 .experience__title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     align-items: baseline;
 }
 
 .experience__text {
     margin-top: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: .5rem;
 } 
 
 .experiencia__botao--repo {
     padding: 1rem;
-    width: 105px;
-    height: 51px;
+    width: 130px;
+    height: 60px;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
     border-radius: .2rem;
     font-family: 'Dosis';
+    font-size: 1.5rem;
+    margin-right: 1rem;
 }
 
 .experiencia__botao--repo:hover {
@@ -72,12 +73,13 @@
 
 .experience__botao--demo {
     padding: 1rem;
-    width: 105px;
-    height: 51px;
+    width: 130px;
+    height: 60px;
     border: 1px solid #2A7AE4;
     background: #2A7AE4;
     color: #e8e5e5;
     border-radius: .2rem;
+    font-size: 1.5rem;
     font-family: 'Dosis';
 }
 
@@ -85,7 +87,11 @@
     font-weight: bold;
 }
 
-@media (max-width:480px) { 
+@media (max-width:320px) { 
+    .experience {
+        margin-left: 0;
+    }
+
     .experiencie__box {
         width: 16rem;
         height: 20rem;
@@ -97,7 +103,7 @@
         width: 18rem;
         border-radius: 1rem;
     }
-
+                                                                             
     .experiencia__botao--repo {
         width: 90px;
         height: 40px;
@@ -107,5 +113,31 @@
         width: 90px;
         height: 40px;
         padding: .3rem;
+    }
+}
+
+@media (max-width:768px) {
+    .experiencie__box {
+        width: 45rem;
+    }
+
+    .experience__img {
+        width: 28rem;
+    }
+
+    .experience__title {
+        font-size: 1.5rem;
+    }
+
+    .experience__text {
+        font-size: 1.2rem;
+    }
+
+    .experiencia__botao--repo,
+    .experience__botao--demo {
+        width: 100px;
+        height: 45px;
+        font-size: 1.2rem;
+        padding: 0;
     }
 }

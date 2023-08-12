@@ -23,7 +23,10 @@ function App() {
         <Hobbies/>
       </div>
       <FormacionA/>
-      <ExperienciaP/>
+      <div className='divExperiencia'>
+        <h2 class="experience__section__title" id="xp" >Experiencia Profesional</h2>
+        <ExperienciaP/>
+      </div> 
       
 
     </div>

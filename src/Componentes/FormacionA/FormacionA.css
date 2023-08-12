@@ -60,6 +60,11 @@
 }
 
 @media (min-width: 320px) { 
+    .academic {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
     .academic__courses {
         flex-wrap: wrap;
     }

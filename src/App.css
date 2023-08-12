@@ -17,6 +17,23 @@
   margin-left: 2rem;
 }
 
+.experience__section__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  text-align: start;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) { 
+  .divSkills,
+  .divHobbies {
+    margin-left: 0;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -9,7 +9,7 @@ function Header () {
       <li className="item"><a href="#skills">Skills</a></li>
       <li className="item"><a href="#hobbies">Hobbies</a></li>
       <li className="item"><a href="#formacion">Formación</a></li>
-      <li className="item"><a href="#">Proyectos</a></li>
+      <li className="item"><a href="#xp">Proyectos</a></li>
       <li className="item"><a href="#">Contacto</a></li>
       <li className="item button"><a href="https://github.com/KarinaCanela"><i className="fab fa-github fa-lg" title='GitHub'></i></a></li>
       <li className="item button"><a href="https://www.linkedin.com/in/karla-karina-canela-cobos-81a83a183/"><i class="fab fa-linkedin fa-lg" title='LinkeIn'></i></a></li>
