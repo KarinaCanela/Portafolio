@@ -10,11 +10,23 @@
 .divSkills {
   display: flex;
   margin-left: 2rem;
+  padding: 1rem;
 }
 
 .divHobbies {
   display: flex;
   margin-left: 2rem;
+  padding: 1rem;
+}
+
+.divFormacion {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.divExperiencia {
+  margin-left: 1rem;
+  padding: 1rem;
 }
 
 .experience__section__title {
