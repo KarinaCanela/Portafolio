@@ -20,25 +20,36 @@ function Header () {
   </nav>
 }
 
+function ocultarMenu(elementosMenu, bntHamburguesa) {
+    if (elementosMenu[0].classList.contains("active")) {
+        for (let i = 0; i < elementosMenu.length; i++) {
+            elementosMenu[i].classList.remove("active");
+        }
+        bntHamburguesa.classList.remove("fa-times");
+        bntHamburguesa.classList.add("fa-bars");
+    } else {
+        for (let i = 0; i < elementosMenu.length; i++) {
+            elementosMenu[i].classList.add("active");
+        }
+        bntHamburguesa.classList.remove("fa-bars");
+        bntHamburguesa.classList.add("fa-times");
+    }
+}
+
 window.addEventListener("load", function() {
   const itemElements = document.getElementsByClassName("item");
   const toggleIcon = document.getElementById("btnmenu");
   
   toggleIcon.addEventListener("click", function() {
-    if (itemElements[0].classList.contains("active")) {
-      for (let i = 0; i < itemElements.length; i++) {
-        itemElements[i].classList.remove("active");
-      }
-      toggleIcon.classList.remove("fa-times");
-      toggleIcon.classList.add("fa-bars");
-    } else {
-      for (let i = 0; i < itemElements.length; i++) {
-        itemElements[i].classList.add("active"); 
-      }
-      toggleIcon.classList.remove("fa-bars");
-      toggleIcon.classList.add("fa-times");
-    }
+      ocultarMenu(itemElements, toggleIcon);
   });
+
+    for (let i = 0; i < itemElements.length; i++) {
+        const element = itemElements[i];
+        element.addEventListener("click", function () {
+            ocultarMenu(itemElements, toggleIcon);
+        })
+    }
 });
     
 
