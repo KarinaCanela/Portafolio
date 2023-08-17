@@ -1,0 +1,134 @@
+.footer {
+    text-align: center;
+    background: url(/public/img/bg.jpg);
+    padding: 2rem;
+    /* box-sizing: content-box; */
+    color: #FFFFFF;
+}
+
+.formcontato__contacto {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.formcontato__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formcontato__subtext {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.formcontato__img {
+    width: 13rem;
+}
+
+.formcontato__form {
+    display: flex;
+    padding: 1rem;
+    
+    flex-direction: column;
+    gap: 3rem 2rem;
+    align-items: center;
+}
+
+.formcontato__input {
+    padding: 8px 25px;
+    width: 15rem;
+    height: 1rem;
+    font-family: 'Dosis';
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.formcontato__textarea {
+    padding: 8px 25px;
+    width: 18rem;
+    height: 12rem;
+    gap: 1rem;
+    font-family: 'Dosis';
+}
+
+.formcontato__botao {
+    width: 105px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    color: #e8e5e5;
+    border-radius: .2rem;
+    font-family: 'Dosis';
+}
+
+.formcontato__botao:hover {
+    font-weight: bold;
+}
+
+.footer__rodape {
+    margin-top: .5rem;
+}
+
+@media (max-width:480px) {
+	.formcontato--esquerda {
+        visibility: hidden;
+        height: 1px;
+    }
+
+    .formcontato__contacto {
+        display: block;
+        /* padding: 1rem;
+        gap: 2rem; */
+        align-content: start;
+    }
+
+    .formcontato__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 2px;
+
+    }
+
+    .formcontato__textarea {
+        width: 11.2rem;
+        height: 1rem;
+        margin-top: 3px;
+    }
+
+    .formcontato__text {
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        gap: 0;
+    }
+
+    .formcontato__input {
+        width: 11rem;
+        height: 1rem;
+        font-family: 'Dosis';
+        margin: 1px;
+    }
+
+    .formcontato__botao {
+        align-self: center;
+        margin-top: 5px;
+        width: 90px;
+        height: 40px;
+        border: 1px solid #2A7AE4;
+        background: #2A7AE4;
+        color: #e8e5e5;
+        border-radius: .2rem;
+        font-family: 'Dosis';
+    }
+}
