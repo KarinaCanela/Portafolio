@@ -150,7 +150,7 @@
 
 
   /* Desktop menu */
-  @media all and (min-width: 900px) {
+  @media all and (min-width: 1025px) {
     .item {
       display: block;
       width: auto;
@@ -178,5 +178,11 @@
 
     .menu li.button {
       padding-right: 0;
+    }
+  }
+
+  @media (min-width: 1224px) and (max-width:1280px){
+    .menu li {
+        font-size: 1.2rem;
     }
   }
