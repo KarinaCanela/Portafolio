@@ -2,7 +2,7 @@
     text-align: center;
     background: url(/public/img/bg.jpg);
     padding: 2rem;
-    /* box-sizing: content-box; */
+    box-sizing: content-box;
     color: #FFFFFF;
 }
 
@@ -32,16 +32,22 @@
 .formcontato__form {
     display: flex;
     padding: 1rem;
-    
-    flex-direction: column;
+    flex-direction: row;
     gap: 3rem 2rem;
     align-items: center;
 }
 
+.input__contacto {
+    display: flex;
+    flex-direction: column;
+}
+
 .formcontato__input {
-    padding: 8px 25px;
-    width: 15rem;
+    padding: 1rem;
+    width: 20rem;
     height: 1rem;
+    border-bottom: 1rem;
+    position: relative;
     font-family: 'Dosis';
 }
 
@@ -49,12 +55,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .formcontato__textarea {
     padding: 8px 25px;
-    width: 18rem;
+    width: 22rem;
     height: 12rem;
     gap: 1rem;
     font-family: 'Dosis';
